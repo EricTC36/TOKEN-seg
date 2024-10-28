@@ -87,15 +87,15 @@ modelo.enviarCorreo =function(email, token, callback)
         secure: true,
         auth: {
 
-            user: 'tecocaballero10@gmail.com',
-            pass: 'xxsa djws npdg tnah'
+            user: 'correo@gmail.com',
+            pass: 'pass'
 
         }
     });
 
     let mailOptions = {
 
-        from: 'tecocaballero10@gmail.com',
+        from: 'correo@gmail.com',
         to: email,
         subject: 'CONFIRMAR CORREO',
         html: '<p> has clic en el siguiente link <a href = "http://localhost:4000/verificarToken?token='+token+'"> Has click aqui </a> </p>'
